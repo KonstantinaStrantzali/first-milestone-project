@@ -14,7 +14,7 @@ body {
 
 .image-container{
   height:550px;
-  background: url("/spapicture.jpg") no-repeat center center;
+  background: url("/assets/images/spapicture.jpg") no-repeat center center;
   background-size:cover;
 }
 
