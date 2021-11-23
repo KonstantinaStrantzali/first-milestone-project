@@ -8,9 +8,8 @@ body {
   font-family:'Roboto', sans-serif;
 }
 .navbar{
-  font-size: 20px;
-  font-weight: 500;
-  color: #FAFAFA;
+    font-size: 1.55rem;
+    width: 100%;
 }
 
 .section-heading{
@@ -18,11 +17,7 @@ body {
 
 }
 
-.image-container{
-  height:550px;
-  background: url("/assets/images/spapicture.jpg") no-repeat center center;
-  background-size:cover;
-}
+
 
 .heading-welcome-text{
   margin-top: 30%;
@@ -109,20 +104,20 @@ body {
 
 
 .banner-image-facilities-container {
-  background: 
-  #2D3142 url("/assets/images/spapicture.jpg") fixed  no-repeat;
+  background:url("/assets/images/spa-oilis-image.jpg") fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+ 
 }
 .banner-hero-image-container {
-  background: 
-  #2D3142 url("/assets/images/spapicture.jpg") fixed center no-repeat;
+  background:url("/assets/images/spapicture.jpg") fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 50% 150%;
 }
 .banner-image-container {
   height: 60vh;
