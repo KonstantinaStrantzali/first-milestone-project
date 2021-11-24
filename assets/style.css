@@ -17,8 +17,6 @@ body {
 
 }
 
-
-
 .heading-welcome-text{
   margin-top: 30%;
   font-family: 'Dancing Script', cursive;
@@ -29,7 +27,9 @@ body {
   btn{
     margin-left: 20%;
   }
+  
   .page-section-about{
+    height:100vh;
     margin-bottom:10px;
   }
   .page-section-review{
@@ -65,10 +65,8 @@ body {
   list-style-type: none;
 }
 
-.social-links{
-  
 
-}
+
 #table{
   color:white;
 }
@@ -101,10 +99,19 @@ body {
   font-weight: 400;
   margin: 0.7em 0;
 }
+.hero-image-container{
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
 
-
+}
+.jumbotron {
+  background-color: transparent;
+}
 .banner-image-facilities-container {
-  background:url("/assets/images/spa-oilis-image.jpg") fixed center no-repeat;
+  background:url("/assets/images/facilities-image.jpg") fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -117,10 +124,10 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 50% 150%;
+  background-position:  150%;
 }
 .banner-image-container {
-  height: 60vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -132,7 +139,24 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 50% 150%;
+  background-position: 50% 120%;
 }
 
+.hero-images-headings{
+  color:#FAFAFA;
+  font-weight: bold;
 }
+
+.opaque-overlay {
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.wrapper{
+  
+}
+
+
