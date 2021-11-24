@@ -126,3 +126,13 @@ body {
   justify-content: center;
   position: relative;
 }
+.banner-image-contact-container{
+  background:url("/assets/images/contact-hero-image.jpg") fixed center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: 50% 150%;
+}
+
+}
