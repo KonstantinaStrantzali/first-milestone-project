@@ -4,13 +4,23 @@
 
 body {
   background-color: #FAFAFA;
-  font-size:
   font-family:'Roboto', sans-serif;
+} 
+/* increase the size of logo, by using rem units, answer found on StackOverflow
+.navbar-brand {
+  position:relative;
+  font-weight: 500;
+  font-size: 2rem;
+  left: 15px;
 }
-.navbar{
-    font-size: 1.55rem;
-    width: 100%;
-}
+/* Change the color of nav text by using !important, answer found on StackOverflow, user: dynamiclynk (https://stackoverflow.com/questions/24420080/change-navbar-text-color-bootstrap) */
+ .navbar-nav li a{
+   font-size: 25px;
+   color:#FAFAFA!important;
+   
+
+ }
+   
 
 .section-heading{
   font-family: 'Dancing Script', cursive;
@@ -155,7 +165,7 @@ body {
   background-color:rgba(0, 0, 0, 0.5);
 }
 
-
+/* -----------------------------------------Contact form */
 .contact-details span i {
   font-size: 20px;
   margin-right: 10px;
@@ -166,4 +176,3 @@ body {
 .contact-details span i:hover {
   font-size:30px;
 }
-
