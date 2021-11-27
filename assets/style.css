@@ -6,12 +6,18 @@ body {
   background-color: #FAFAFA;
   font-family:'Roboto', sans-serif;
 } 
-/* increase the size of logo, by using rem units, answer found on StackOverflow
+/* increase the size of logo, by using rem units, answer found on StackOverflow */
 .navbar-brand {
   position:relative;
   font-weight: 500;
   font-size: 2rem;
   left: 15px;
+}
+.logo-icon{
+  transform: rotate(30deg); 
+  background-color: rgba(214, 240, 154, 0.808);
+  margin-right: 15px;
+  
 }
 /* Change the color of nav text by using !important, answer found on StackOverflow, user: dynamiclynk (https://stackoverflow.com/questions/24420080/change-navbar-text-color-bootstrap) */
  .navbar-nav li a{
