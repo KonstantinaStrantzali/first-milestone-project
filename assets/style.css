@@ -113,6 +113,24 @@ body{
  
 .footer-area ul li i{
   margin-right: 10px;
+  
+
+}
+/* Social media item copied and then modified from: https://bbbootstrap.com/snippets/bootstrap-social-media-icons-hover-effect-29974962 */
+.footer-area .list-inline .list-inline-item a{
+  border-color:rgb(39, 34, 34);
+  font-size: 20px;
+}
+.footer-area .list-inline .list-inline-item a i{
+  margin-left:10px;
+  font-size: 20px;
+  color:#FAFAFA;
+  transition: 0.4s all;
+}
+.list-inline-item i:hover {
+  transform: scale(1.4);
+}
+
 }
 
 /*---------------------------------------> Facilities Page */
