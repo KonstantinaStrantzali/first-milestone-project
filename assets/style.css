@@ -5,7 +5,7 @@ body{
   font-weight: 300;
 }
 
-/* increase the size of logo, by using rem units, answer found on StackOverflow */
+/*------------------------------->Nav bar */
 .navbar-brand {
   position:relative;
   font-weight: 500;
@@ -26,7 +26,10 @@ body{
    
 
  }
-   
+  /*-------------------------------------------> Jumbotrons */ 
+  .jumbotron {
+    background-color: transparent;
+  }
  .jumbotron .jumbotron-main-headings{
   font-family:'Oswald', sans-serif;
   font-weight: 400;
@@ -43,10 +46,10 @@ body{
   font-family:'Oswald', sans-serif;
   font-weight: 400 bold;
   font-size:40px;
-  color: #FAFAFA;
+  color: black;
 
 }
-
+/*------------------------------------------------------> Sections */
 .about-info{
   font-family:'Lato', sans-serif;
   font-weight: 400;
@@ -65,7 +68,7 @@ body{
     margin-bottom: 10%;
   }
 
-.spa-costumer-review {
+/*.spa-costumer-review {
     font-size: 1.1em;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
@@ -85,7 +88,8 @@ body{
 .carousel-control-prev,
 .carousel-control-next {
     width: 25%;
-}
+} */
+/*-------------------------------------------> Footer */
 .footer-area{
     color: #FAFAFA;
     min-height: 120px;
@@ -93,8 +97,6 @@ body{
 .footer-area ul{
   list-style-type: none;
 }
-
-
 
 #table{
   color:white;
@@ -113,7 +115,7 @@ body{
   margin-right: 10px;
 }
 
-
+/*---------------------------------------> Facilities Page */
 
 .facility-image img {
   position: relative;
@@ -128,6 +130,16 @@ body{
   font-weight: 400;
   margin: 0.7em 0;
 }
+
+.facilities-services-section .font-icons{
+  font-size:40px;
+  margin-bottom: 1rem;
+  color:#3A462C;
+  line-height: 1.6;
+  
+}
+
+/*------------------------------------------------>Containers */
 .hero-image-container{
   height: 80vh;
   display: flex;
@@ -136,11 +148,10 @@ body{
   position: relative;
 
 }
-.jumbotron {
-  background-color: transparent;
-}
+
+
 .banner-image-facilities-container {
-  background:url("/assets/images/facilities-image.jpg") fixed center no-repeat;
+  background:url("/assets/images/facilities-hero-image.jpg") fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
