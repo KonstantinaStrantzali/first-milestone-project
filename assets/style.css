@@ -156,6 +156,26 @@ body{
   line-height: 1.6;
   
 }
+.avaliability-button{
+  background-color:#3A462C;
+  
+}
+.avaliability-info a{
+color: #FAFAFA !important;
+  text-decoration: none;
+}
+.timetable-class-row{
+background-color: #D3D3D3;
+    border: 3px solid #FAFAFA;
+    color: #141313;
+    text-align: center;
+    border-radius: .5rem;
+    padding: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+
 
 /*------------------------------------------------>Containers */
 .hero-image-container{
@@ -197,7 +217,7 @@ body{
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 50% 120%;
+  background-position: 0px -160px;
 }
 
 .hero-images-headings{
