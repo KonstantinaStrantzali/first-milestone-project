@@ -189,7 +189,7 @@ background-color: #D3D3D3;
 
 
 .banner-image-facilities-container {
-  background:url("/assets/images/facilities-hero-image.jpg") fixed center no-repeat;
+  background:url("assets/images/facilities-hero-image.jpg") fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -197,7 +197,7 @@ background-color: #D3D3D3;
  
 }
 .banner-hero-image-container {
-  background:url("/assets/images/spapicture.jpg") fixed center no-repeat;
+  background:url("assets/images/spapicture.jpg") fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -212,7 +212,7 @@ background-color: #D3D3D3;
   position: relative;
 }
 .banner-image-contact-container{
-  background:url("/assets/images/contact-hero-image.jpg") fixed center no-repeat;
+  background:url("assets/images/contact-hero-image.jpg") fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
