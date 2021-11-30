@@ -240,3 +240,16 @@ background-color: #D3D3D3;
 .contact-details span i:hover {
   font-size:30px;
 }
+
+.services-facilities-container{
+  display: flex;
+  flex-direction: column;
+}
+.services-info {
+  flex-grow: 1;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
