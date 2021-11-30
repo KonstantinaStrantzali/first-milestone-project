@@ -253,3 +253,16 @@ background-color: #D3D3D3;
   display: flex;
   flex-direction: column;
 }
+.facilities-timetable #navTab a:hover,
+.facilities-timetable #navTab a:active,
+.facilities-timetable #navTab a:focus,
+.facilities-timetable #navTab a:active:focus {
+    color: #FAFAFA;
+    text-decoration: none;
+    background-color:#3A462C;
+}
+.nav-tabs .nav-link {
+  background-color: #D3D3D3;
+  margin: 4px;
+  color:#0f0f0f;
+}
