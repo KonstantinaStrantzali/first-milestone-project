@@ -50,19 +50,16 @@ body{
 
 }
 /*------------------------------------------------------> Sections */
-.about-info{
-  font-family:'Lato', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-}
+
+
   
   btn{
     margin-left: 20%;
   }
   
-  .page-section-about{
-    height:100vh;
-    margin-bottom:10px;
+
+  
+  
   }
   .page-section-review{
     margin-bottom: 10%;
@@ -196,13 +193,12 @@ background-color: #D3D3D3;
   background-size: cover;
  
 }
-.banner-hero-image-container {
+.hero-home-image-container {
   background:url("images/spapicture.jpg") fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position:  150%;
 }
 .banner-image-container {
   height: 100vh;
