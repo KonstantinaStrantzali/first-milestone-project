@@ -61,7 +61,7 @@ body{
     margin-bottom: 10%;
   }
 
-/*.spa-costumer-review {
+.spa-costumer-review {
     font-size: 1.1em;
     font-weight: 400;
     font-family: "Roboto", sans-serif;
@@ -81,7 +81,7 @@ body{
 .carousel-control-prev,
 .carousel-control-next {
     width: 25%;
-} */
+} 
 /*-------------------------------------------> Footer */
 .footer-area{
     color: #FAFAFA;
