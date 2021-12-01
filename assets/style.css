@@ -50,8 +50,19 @@ body{
 
 }
 /*------------------------------------------------------> Sections */
+.about-info{
+  width:100%;
+  margin:auto;
+}
+.section-image{
+  width: 500px;
+  height: 400px;
+}
+.section-image-benefits{
+  width: 400px;
+  height: 400px;
 
-
+}
   
   btn{
     margin-left: 20%;
@@ -257,12 +268,10 @@ background-color: #D3D3D3;
 }
 
 .masage-benefits-container {
-  background-color: #3A462C;;
+  background-color: #3A462C;
   box-shadow: black;
 }
 .massage-benefits-content p{
-  margin-left: 50px;
-  margin-right: 50px;
   background-color: #FAFAFA;
 }
 .benefits-heading{
@@ -270,4 +279,9 @@ background-color: #D3D3D3;
   font-weight: 400;
   font-size:40px;
   color:#FAFAFA;
+}
+.subheading-massage-benefits{
+  color: black;
+  font-weight:bold;
+  font-size:30px;
 }
