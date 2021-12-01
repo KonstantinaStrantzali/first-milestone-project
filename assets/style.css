@@ -173,12 +173,11 @@ background-color: #D3D3D3;
 
 /*------------------------------------------------>Containers */
 .hero-image-container{
-  height: 80vh;
-  display: flex;
+  height: 80vh;ainer
+  display:flex;
   align-items: center;
   justify-content: center;
   position: relative;
-
 }
 
 
@@ -197,20 +196,13 @@ background-color: #D3D3D3;
   -o-background-size: cover;
   background-size: cover;
 }
-.banner-image-container {
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
+
 .banner-image-contact-container{
   background:url("images/contact-hero-image.jpg") fixed center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
-  background-position: 0px -160px;
 }
 
 .hero-images-headings{

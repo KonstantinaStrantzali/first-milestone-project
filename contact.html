@@ -16,36 +16,36 @@
 <body>
 <header>
   <!-- Navigation Bar copied and then modified from Bootstap documentation - https://getbootstrap.com/docs/4.5/components/navbar/-->
-  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="index.html"><i class="fas fa-spa logo-icon"></i>ThermalSpa</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav nav ms-auto">
-        <li class="nav-item text-rightactive">
-          <a class="nav-link" href="index.html">Home <span class="sr-only"></span></a>
-        </li>
-        <li class="nav-item text-right">
-          <a class="nav-link" href="#">Services</a>
-        </li>
-        <li class="nav-item text-right">
-          <a class="nav-link" href="facilities.html">Facilities</a>
-        </li>
-        <li class="nav-item text-right">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-       
-      </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><i class="fas fa-spa logo-icon"></i>ThermalSpa</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="facilities.html">Facilities</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
 </header>
-<div class="wrapper">
-<div class="container-fluid hero-image-container banner-image-contact-container mt-5">
+<div class="container-fluid banner-image-contact-container hero-image-container">
     <div class="row">
         <div class="col-12">
             <section class="jumbotron text-center">
-             <h1 class="jumbotron-headings">
+             <h1 class="jumbotron-headings mt-5">
                 Want to know more?
                 </h1>
                 <h2 class="jumbotron-headings">
@@ -55,7 +55,7 @@
         </div>
         </div>
     </div>
-  </div>
+  
   
   <!--Boostrap form copied and then modified-->
   <section class="container-fluid p-5">
