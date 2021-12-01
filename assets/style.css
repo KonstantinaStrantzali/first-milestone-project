@@ -70,12 +70,13 @@ body{
 
 .spa-costumer-image {
     object-fit: cover;
+    border-radius: 50%;
     
 }
 
 .carousel-inner .row {
     margin: 0 -80px;
-    background-colo:#FAFAFA ;
+    background-color:#FAFAFA ;
 }
 
 .carousel-control-prev,
