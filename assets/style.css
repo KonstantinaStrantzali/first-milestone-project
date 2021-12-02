@@ -211,10 +211,13 @@ background-color: #D3D3D3;
 /* -----------------------------------------Contact form */
 .contact-details span i {
   font-size: 20px;
-  margin-right: 10px;
+  margin-right: 20px;
   padding:10px;
-  background: #b5b5b8;
+  background: #3A462C;
   border-radius: 50%;
+}
+.contact-details .font-icon{
+  color: #FAFAFA;
 }
 .contact-details span i:hover {
   font-size:30px;
