@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@0,300;0,400;&family=Oswald&display=swap');
 
 body{
   font-family: 'Lato', sans-serif;
@@ -140,14 +140,14 @@ body{
   line-height: 1.6;
   
 }
-.avaliability-button{
-  background-color:#3A462C;
+.card-button{
+  background-color:#3A462C !important;
+  color: #FAFAFA !important;
+  border-color: #3A462C;
+  text-decoration: none;}
   
-}
-.avaliability-info a{
-color: #FAFAFA !important;
-  text-decoration: none;
-}
+
+
 .timetable-class-row{
 background-color: #D3D3D3;
     border: 3px solid #FAFAFA;
@@ -289,10 +289,11 @@ background-color: #D3D3D3;
 .services-info {
   flex-grow: 1;
 }
-.treatments-cards{
- 
-  
-
+.card-title{
+  font-size:20px;
+  font-weight:300;
+  color:#080808
+}
 
 .card-container {
   display:flex;
