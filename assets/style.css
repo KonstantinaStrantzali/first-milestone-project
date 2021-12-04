@@ -177,7 +177,7 @@ background-color: #D3D3D3;
   position: relative;
 }
  .facial-treatment-banner-image{
-   background:url("/assets/images/facial-treatment02.png") fixed center center no-repeat;
+   background:url("images/facial-treatment02.png") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -185,14 +185,14 @@ background-color: #D3D3D3;
 
  }
  .bamboo-massage-banner-image{
-  background:url("/assets/images/massage-treatment-02.jpeg") fixed center center no-repeat;
+  background:url("images/massage-treatment-02.jpeg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
  }
  .sauna-banner-image{
-  background:url("/assets/images/sauna-banner-image.jpg") fixed center center no-repeat;
+  background:url("images/sauna-banner-image.jpg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
