@@ -243,6 +243,29 @@ background-color: #D3D3D3;
   width: 100%;
   background-color:rgba(0, 0, 0, 0.5);
 }
+.fa-clock{
+  font-size:20px;
+  color: #3A462C;
+  margin: 20px 5px;
+}
+.fa-tag{
+  font-size:20px;
+  color: #3A462C;
+  margin-left:10px;
+  margin-right:5px;
+}
+.badge{
+  margin-left:100px;
+}
+.badge-sales{
+  margin-left:20px;
+  font-size: 15px;
+}
+.strike-through{
+  color:rgb(133, 130, 130);
+  margin-right:10px;
+  font-size:15px;
+}
 
 /* -----------------------------------------Contact form */
 .contact-details span i {
@@ -266,10 +289,14 @@ background-color: #D3D3D3;
 .services-info {
   flex-grow: 1;
 }
+.treatments-cards{
+ 
+  
+
 
 .card-container {
-  display: flex;
-  flex-direction: column;
+  display:flex;
+  flex-direction:column;
 }
 .facilities-timetable #navTab a:hover,
 .facilities-timetable #navTab a:active,
