@@ -163,13 +163,41 @@ background-color: #D3D3D3;
 
 /*------------------------------------------------>Containers */
 .hero-image-container{
-  height: 80vh;ainer
+  height: 80vh;
   display:flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
+.treatment-images{
+  height: 80vh;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+ .facial-treatment-banner-image{
+   background:url("/assets/images/facial-treatment02.png") fixed center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
+ }
+ .bamboo-massage-banner-image{
+  background:url("/assets/images/massage-treatment-02.jpeg") fixed center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
+ .sauna-banner-image{
+  background:url("/assets/images/sauna-banner-image.jpg") fixed center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ }
 
 .banner-image-facilities-container {
   background:url("images/facilities-hero-image.jpg") fixed center center no-repeat;
@@ -193,6 +221,14 @@ background-color: #D3D3D3;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+.body-treatment-container{
+  background:url("/assets/images/massage-treatment-01.jpeg") fixed center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .hero-images-headings{
