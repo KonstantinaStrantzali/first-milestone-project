@@ -1,30 +1,41 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@0,300;0,400;&family=Oswald&display=swap');
 
-body{
+html, body{
   font-family: 'Lato', sans-serif;
-  
+  height: 100%;
 }
 
 /*------------------------------->Nav bar */
+
+
 .navbar-brand {
-  position:relative;
   font-size: 2rem;
-  left: 10px;
+  left:5px;
   font-family:"Oswald", sans-serif;
+  
 }
+.navbar-nav li a{
+  font-size: 25px;
+  color:#FAFAFA!important;
+}
+
+.navbar-nav li a:hover {
+
+  border-top: 4px solid white;
+  border-bottom: 4px solid white;
+  
+  
+}
+
 .logo-icon{
   transform: rotate(30deg); 
   background-color: rgba(214, 240, 154, 0.808);
   margin-right: 5px;
+ 
   
 }
 /* Change the color of nav text by using !important, answer found on StackOverflow, user: dynamiclynk (https://stackoverflow.com/questions/24420080/change-navbar-text-color-bootstrap) */
- .navbar-nav li a{
-   font-size: 25px;
-   color:#FAFAFA!important;
-   
-
- }
+ 
   /*-------------------------------------------> Jumbotrons */ 
   .jumbotron {
     background-color: transparent;
@@ -49,24 +60,12 @@ body{
 
 }
 /*------------------------------------------------------> Sections */
-.about-info{
-  width:100%;
-  margin:auto;
-}
-.section-image{
-  width: 500px;
-  height: 400px;
-}
-
 
   
   btn{
     margin-left: 20%;
   }
   
-  .page-section-review{
-    margin-bottom: 10%;
-  }
 
 
 /*-------------------------------------------> Footer */
@@ -111,7 +110,7 @@ body{
   transform: scale(1.4);
 }
 
-}
+
 
 /*---------------------------------------> Facilities Page */
 
@@ -165,6 +164,9 @@ background-color: #D3D3D3;
   justify-content: center;
   position: relative;
 }
+.bannner-hero-home-image{
+  height:100%;
+}
 .treatment-images{
   height: 80vh;
   display:flex;
@@ -209,6 +211,7 @@ background-color: #D3D3D3;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+ 
 }
 
 .banner-image-contact-container{
@@ -232,13 +235,7 @@ background-color: #D3D3D3;
   font-weight: bold;
 }
 
-.opaque-overlay {
-  position: absolute;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color:rgba(0, 0, 0, 0.5);
-}
+
 .fa-clock{
   font-size:20px;
   color: #3A462C;
@@ -342,33 +339,4 @@ background-color: #D3D3D3;
 
 
 
-
-.ratings {
-  margin-right: 10px
-}
-
-.ratings i {
-  color: #cecece;
-  font-size: 30px;
-}
-
-.rating-color {
-  color: #fbc634 !important
-}
-
-.review-count {
-  font-weight: 400;
-  margin-bottom: 2px;
-  font-size: 24px !important
-}
-
-.small-ratings i {
-  color: #cecece
-}
-
-.review-stat {
-  font-weight: 300;
-  font-size: 18px;
-  margin-bottom: 2px
-}
 
