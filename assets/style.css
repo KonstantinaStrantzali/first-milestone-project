@@ -327,9 +327,13 @@ background-color: #D3D3D3;
   margin-left:10%;
   margin-top: 50px;
 }
-.video-promo{
-  margin-left: 10%;
-  margin-top: 50px;
+
+.video-container{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  
+
 }
 .btn-contact{
   background-color: #3A462C !important;
