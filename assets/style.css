@@ -2,14 +2,14 @@
 
 body{
   font-family: 'Lato', sans-serif;
-  font-weight: 300;
+  
 }
 
 /*------------------------------->Nav bar */
 .navbar-brand {
   position:relative;
   font-size: 2rem;
-  left: 15px;
+  left: 10px;
   font-family:"Oswald", sans-serif;
 }
 .logo-icon{
@@ -57,11 +57,8 @@ body{
   width: 500px;
   height: 400px;
 }
-.section-image-benefits{
-  width: 400px;
-  height: 400px;
 
-}
+
   
   btn{
     margin-left: 20%;
@@ -325,12 +322,18 @@ background-color: #D3D3D3;
   font-size:40px;
   color:#FAFAFA;
 }
-.subheading-massage-benefits{
-  color: black;
-  font-weight:bold;
-  font-size:30px;
-}
 
+.subheading-massage-benefits{
+  font-family:'Oswald', sans-serif;
+  font-weight: 300px;
+  font-size:25px;
+  margin-left:10%;
+  margin-top: 50px;
+}
+.video-promo{
+  margin-left: 10%;
+  margin-top: 50px;
+}
 .btn-contact{
   background-color: #3A462C !important;
   border-color: #3A462C;
