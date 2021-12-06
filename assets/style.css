@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@0,300;0,400;&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@200@300@400&family=Oswald&display=swap');
+
+
 
 html, body{
-  font-family: 'Lato', sans-serif;
-  height: 100%;
+  font-family: 'Lato', sans-serif; 
 }
 
 /*------------------------------->Nav bar */
@@ -29,11 +30,13 @@ html, body{
 
 .logo-icon{
   transform: rotate(30deg); 
-  background-color: rgba(214, 240, 154, 0.808);
-  margin-right: 5px;
- 
-  
+  background-color:#495838;
+  font-size:35px;
+  margin-right: 10px;
+  margin-left:5px; 
 }
+
+
 /* Change the color of nav text by using !important, answer found on StackOverflow, user: dynamiclynk (https://stackoverflow.com/questions/24420080/change-navbar-text-color-bootstrap) */
  
   /*-------------------------------------------> Jumbotrons */ 
@@ -46,15 +49,25 @@ html, body{
   font-size:40px;
   
 }
-.section-heading,.section-sub-heading{
+.section-heading{
   font-family:'Oswald', sans-serif;
   font-weight: 400;
   font-size:40px;
-
 }
+.section-sub-heading{
+  font-family:'Oswald', sans-serif;
+  font-weight: 400;
+  font-size:30px;
+}
+.section-content{
+  font-family:'Lato', sans-serif;
+  font-weight: 200;
+  font-size:18px;
+}
+
 .jumbotron .jumbotron-headings{
   font-family:'Oswald', sans-serif;
-  font-weight: 400 bold;
+  font-weight: 400;
   font-size:40px;
   color: black;
 
@@ -69,19 +82,13 @@ html, body{
 
 
 /*-------------------------------------------> Footer */
-.footer-area{
-    color: #FAFAFA;
-    min-height: 120px;
-} 
-.footer-area ul{
-  list-style-type: none;
-}
+
 
 #table{
   color:white;
 }
 
-.contact-details-container{
+.contact-info-container{
   text-decoration: none ;
 }
 
@@ -96,6 +103,23 @@ html, body{
 
 }
 /* Social media item copied and then modified from: https://bbbootstrap.com/snippets/bootstrap-social-media-icons-hover-effect-29974962 */
+.footer-area{
+  color: #FAFAFA;
+  min-height: 120px;
+} 
+.footer-area ul{
+list-style-type: none;
+
+}
+.footer-headings{
+  font-family:'Lato', sans-serif;
+}
+.footer-copyright a:link, 
+.footer-copyright a:visited {
+    color: #fafafa;
+    text-decoration: none;
+}
+
 .footer-area .list-inline .list-inline-item a{
   border-color:rgb(39, 34, 34);
   font-size: 20px;
@@ -255,7 +279,7 @@ background-color: #3A462C;
   margin-left:10px;
   margin-right:5px;
 }
-.badge{
+.badge-treatment{
   margin-left:100px;
 }
 .badge-sales{
@@ -331,10 +355,10 @@ background-color: #3A462C;
 
 .subheading-massage-benefits{
   font-family:'Oswald', sans-serif;
-  font-weight: 300px;
+  margin-bottom: 20px;
+  font-weight: 400px;
   font-size:25px;
-  margin-left:10%;
-  margin-top: 50px;
+ 
 }
 
 .video-container{
