@@ -1,10 +1,11 @@
-<h1 align ="center">Prosperity Spa Website</h1>
+<h1 align ="center">Purity Spa Website</h1>
 
-## User-Centric Frontend Development First Milestone Project.
+## <h3 align="center"> User-Centric Frontend Development First Milestone Project. </h3>
 
 ![Mockup](md.images/projects-responsive-viewports.png)
 
-This is a Purity Spa Website, a fictional Spa Leisure Centre, which is created and designed to be responsive and accessible 
+This is a Purity Spa Website, a fictional Spa Leisure Centre, which is targeted at the prospective clients who are interested in experiencing spa treatments and other spa facilities offered. This static-website is designed to be responsive and accessible on all types of devices and created for
+educational purposes, to show my understanding and skills in design and development using HTML CSS and Bootstrap.
 
 
 
@@ -20,6 +21,10 @@ This is a Purity Spa Website, a fictional Spa Leisure Centre, which is created a
     - [User stories](#user-stories)
     - [Structure of the website](#structure-of-the-website)
     - [Wireframes](#wireframes)
+        - [Home page](#home-page)
+        - [Services page](#services-page)
+        - [Facilities page](#facilities-page)
+        - [Contact-page](#contact-page)
     - [Surface](#surface)
 - [Features](#features)
 - [Technology](#technology)
@@ -56,6 +61,13 @@ This is a Purity Spa Website, a fictional Spa Leisure Centre, which is created a
 *	User will able to find the closing and opening hours. 
 *	User can contact with the spa centre using the contact form.
 
+### As a business owner:
+
+*	I want to present potential costumers information about the spa center so that they understand what facilities and services are available there.
+*	I want the potential costumers to be able to book spa treatments easily. 
+*	I want the potential costumers to be able to find where the spa center is located, its opening hours, packages and their respective prices. 
+*	I want to make sure that the potential clients will be able to contact with the spa centre and easily using the contact form. 
+
 ## User Stories 
 
 ### As a new costumer:
@@ -71,12 +83,70 @@ This is a Purity Spa Website, a fictional Spa Leisure Centre, which is created a
 *	I would like to be able to easily book a treatment. 
 *	I would like to see the duration of each treatment. 
 
-### As a business owner:
 
-*	I want to present potential costumers information about the spa center so that they understand what facilities and services are available there.
-*	I want the potential costumers to be able to book spa treatments easily. 
-*	I want the potential costumers to be able to find where the spa center is located, its opening hours, packages and their respective prices. 
-*	I want to make sure that the potential clients will be able to contact with the spa centre and easily using the contact form. 
+
+## Structure of the website
+
+This is a user-friendly website, which adjust for different screen sizes and vieports of any device. The website can automatically resize, hide, shrink, or enlarge on desktop, tablet or mobile and look the same good on all screen sizes while ensuring usability and user satisfaction.
+
+## Wireframes
+
+The UI wireframing tool I used to create wireframes for each page as it would appear on desktop and mobile view was  [Balsamiq](https://balsamiq.com/).
+### Home Page
+
+<p float="left">
+  <img src="md.images/home-page.png" width="45%"/>
+  <img src="md.images/mobile-home-page.png" width="45%"/> 
+</p>
+
+### Services Page 
+
+<p float="left">
+  <img src="md.images/services-page.png" width="45%"/>
+  <img src="md.images/services-page-mobile.png" width="45%"/> 
+</p>
+
+### Facilities Page 
+<p float="left">
+  <img src="md.images/facilities-page.png" width="45%"/>
+  <img src="md.images/facilities-page-mobile.png" width="45%"/> 
+</p>
+
+### Contact Page
+
+<p float="left">
+  <img src="md.images/contact-page.png" width="45%"/>
+  <img src="md.images/contact-mobile.png" width="45%"/> 
+</p>
+
+## Surface
+
+### Colors
+The colour scheme was chosen with the main color a shade of green, which stands for balance, nature and rebirth and intended to envoke prosperity and freshness to the potential spa costumers. 
+
+<p float="left">
+  <img src="md.images/color-pallete.png" width="100%"/>
+
+Main colours used in a project:
+* background color: #FFFFFF and #336600
+* font color, navigation-bar and footer: #222224
+* hover color: #696969
+* ---- #D3D3D3
+
+### Fonts 
+
+* As a main font I used Almarai, and as a backup font sans-serif
+
+### Images
+
+* I used images from [Unspalsh.com](www.unsplash.com) and there are credited in [credits](#credits) section.
+
+
+[Back to Table of contents](#table-of-contents)
+
+
+
+
 
 
 
