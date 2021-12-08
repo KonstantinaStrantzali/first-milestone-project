@@ -135,15 +135,136 @@ Main colours used in a project:
 
 ### Fonts 
 
-* As a main font I used Almarai, and as a backup font sans-serif
+* ----------------------------------------------------
 
 ### Images
+Websites used to source royalty free images.
+    
+  * [Pexels](www.pexels.com). 
+  * [Pixabay](www.pixabay.com).
+  * [Unspalsh.com](www.unsplash.com).
 
-* I used images from [Unspalsh.com](www.unsplash.com) and there are credited in [credits](#credits) section.
+[Back to Table of contents](#table-of-contents)
+    
+# Features
+The website consists of 6 pages. Four are accessible from a navigation menu.
+One is a 404 error page and one is a submission confirmation page for a form.
+
+The website has below features:
+
+## Navigation bar
+
+-The navigation bar appears on the top, providing meaningfull titles for each of the four pages, is fully responsive and condenses to a 'hamburger icon' on mobile and tablet devices.
+On the left side there is a logo, made by a font Awesome icon to visually illustrate the topic and name of the website and link to the main page.
+On the right side there are the links for each of the four pages Home, Services, Facilities and Contact.
+
+## Footer
+
+* Footer is consistent on each page including contact details such as spa opening hours, address, location and social media. The footer is responsive and can be displayed on all devices, allowing the user to have the information needed without leaving the page they are on. 
+
+## Features by page
+
+### Home
+ - A full-screen **hero image** draws the user's attention immediately upon entering the site with an animated heading of a brand name. 
+ -The About Us section, allows the user to be welcomed on the site while having information about the spa centre and providing an eye-catching image of electric     humidifier, with the understanding of a pleasant atmosphere full of relaxing aromas. 
+- The benefits of massage section, informs the users with the therapeutic effects and benefits of massage while allowing them to interact with the website by pressing the button to watch a relevant **video**. 
+
+ ### Services
+
+ -A full-width plant **banner image**,  displays a restful and relaxing picture for the user eye to view while entering the product page and reaffirm the brand's name on heading. 
+-A services section provides the user with the  treatments description, sales and new products displayed on **cards** and divided into categories.
+The white background helps the product content stands out while the full-width **jumbotron images** placed on the beginning of each category calling for extra attention and positively influence the decision-making process of the potential buyers.
+
+### Facilities
+    
+ -A full-width plant **banner image** with a brand-name heading, is displayed for advertising repetition purposes. An eye-catching **font awesome icons** used above each facilities description for increasing the understanding of the facility at a glance. 
+-**Call-to-action buttons** placed below facilities description, allow the user to check the availability by linking them to the corresponding timetable. 
+-A **tabbed navigation pane**, allows users to get informed about the timetable of facilities operation and let them know about days and times the service offered while easily tab instead of scrolling.
+
+
+## Contact
+
+-A **banner image** with a question heading encourages the users to get in touch with the spa centre. A contact us form, asks for user's contact details, the type of their enquiry and message to be typed in the text area. 
+
+
+##  Future implementations
+
+* Contact form to be submitted and costumers' data to be sent to a server. 
+* An online payment system so costumers can buy spa treatments and pay immediatly from the site.
+* An online booking system for costumers to book the spa tratments.
+* The brand domain name to be given to the website.
 
 
 [Back to Table of contents](#table-of-contents)
 
+  
+ # Technologies used:
+    
+-Languages:
+
+* [HTML5](http://en.wikipedia.org/wiki/HTML5)
+ Used to structure the content as structure language.
+
+* [CSS3](http://en.wikipedia.org/wiki/CSS)
+ Used to style the content.
+
+* [Bootstrap v.5.0](https://getbootstrap.com/docs/5.0/getting-started/introduction/)
+ Used as a main framework to make the project responsive on all devices.
+ 
+* [JavaScript](https://en.wikipedia.org/wiki/JavaScript)
+ Used for the bootstrap nav bar and tabbed navigation pane.
+    
+-Websites
+
+* [Font Awesome](https://fontawesome.com/). Used to obtain the logo icon in navigation bar, the social media icons in the footer and the icons were used in facilities section.
+* [Google Fonts](https://fonts.google.com/). Used to choose and source the fonts.
+* [Coolors](https://coolors.co/ffbe0b-fb5607-ff006e-8338ec-3a86ff). Used to choose a colour pallete.
+* [Github](https://github.com/). Used as software hosting platform to store code after being pushed.
+* [Gitpod](https://www.gitpod.io/). Used as online development enviroment.
+* [Am I Responsive](http://ami.responsivedesign.is/). Used to show the responsiveness of the site when viewed on desktop, mobile and table devices by creating the mock-up image at the top of the README.md document.
+* [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools). Used extensively to fix issues, find bugs and test the responsiveness of the project. 
+* [Stack Overflow](https://stackoverflow.com/). Used to search for the answers to questions or problems encountered.
+
+[Back to Table of contents](#table-of-contents)
+
+ # Testing
+
+## Functionality testing 
+
+    Thoughout the development process  [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) and [Firefox Development Tools](https://developer.mozilla.org/en-US/docs/Tools) were used extensively  to examine, edit and debug the code as well as to test the responsiveness of the site in order to achive the desired result.
+
+## Compatibility testing
+    Using Mozilla and Google Chrome Development tools the project was tested to all the avaliable supported devices viewport such as:
+    - Apple iPad
+    - Apple iPad Pro
+    - Microsoft Surface Duo
+    - Motorola G4
+    - Samsung Galaxy S5
+    - Google Pixel 2/2 XL
+    - Apple iPhone 5/SE
+    - Apple iPhone 6/7/8
+    - Apple iPhone 6/7/8 Plus
+    - Apple iPhone X
+   
+    
+## User stories testing
+
+### As a business owner:
+
+
+
+
+### As a new customer:
+
+    
+### As a returning customer:
+
+
+
+---
+    
+## Issues found during site development
+    
 
 
 
