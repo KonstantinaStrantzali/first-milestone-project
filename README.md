@@ -124,7 +124,7 @@ The UI wireframing tool I used to create wireframes for each page as it would ap
 ### Colors
 The colour scheme was chosen with the main color a shade of green, which stands for balance, nature and rebirth and intended to envoke prosperity and freshness to the potential spa costumers. 
 
-<p float="left">
+<p float="center">
   <img src="md.images/color-pallete.png" width="100%"/>
 
 Main colours used in a project:
@@ -230,40 +230,90 @@ The white background helps the product content stands out while the full-width *
  # Testing
 
 ## Functionality testing 
-
-    Thoughout the development process  [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) and [Firefox Development Tools](https://developer.mozilla.org/en-US/docs/Tools) were used extensively  to examine, edit and debug the code as well as to test the responsiveness of the site in order to achive the desired result.
+Thoughout the development process  [Google Chrome Developer Tools](https://developers.google.com/web/tools/chrome-devtools) and [Firefox Development Tools](https://developer.mozilla.org/en-US/docs/Tools) were used extensively  to examine, edit and debug the code as well as to test the responsiveness of the site in order to achive the desired result.
 
 ## Compatibility testing
-    Using Mozilla and Google Chrome Development tools the project was tested to all the avaliable supported devices viewport such as:
-    - Apple iPad
-    - Apple iPad Pro
-    - Microsoft Surface Duo
-    - Motorola G4
-    - Samsung Galaxy S5
-    - Google Pixel 2/2 XL
-    - Apple iPhone 5/SE
-    - Apple iPhone 6/7/8
-    - Apple iPhone 6/7/8 Plus
-    - Apple iPhone X
+Using Mozilla and Google Chrome Development tools the project was tested to all the avaliable supported devices viewport such as:
+- Apple iPad
+- Apple iPad Pro
+- Microsoft Surface Duo
+- Motorola G4
+- Samsung Galaxy S5
+- Google Pixel 2/2 XL
+- Apple iPhone 5/SE
+- Apple iPhone 6/7/8
+- Apple iPhone 6/7/8 Plus
+- Apple iPhone X
    
     
 ## User stories testing
 
 ### As a business owner:
 
+    
+-I want to present potential costumers information about the spa center so that they understand what facilities and services are available there.
+*A facilities page is made to show the potential costumers the facilities can be visit on spa and read a short description for them underneath. Furthermore they can check facilities' availability by clicking the corresponding button.
+*A services page is made to present a detailed description of the treatments are offered.
 
+-I want the potential costumers to be able to book spa treatments easily.
+To be created
+The costumers can easily book a spa treatment by clicking the button below the product they like.
+
+-I want the potential costumers to be able to find where the spa center is located, its opening hours, packages and their respective prices.
+*Οn each page's footer consistently displayed the opening hours information and the location of the spa by providing the address written and a Google maps <iframe>
+*On services page the new costumer can see the treatments' prices right below the treatments' titles.
+
+-I want to make sure that the potential clients will be able to contact with the spa centre and easily using the contact form.
+-The contact page includes a contact form that the potential costumer can use to contact with the spa center and submit an enquiry.
 
 
 ### As a new customer:
+-I want to be convinced as to why should I become a costumer of this spa center.
+* All the information of the website is  clearly displayed to the user,  in an attractive and informative way by using appealing images, banners, videos, animated headings,timetables, badges and font awesome icons to understand the content at glance. The user can easily access to all the information through navigation bar and have a positive and trustworthy experience.
 
+-I would like to find a detailed description of the treatments are being offered in the packages.
+* A detailed description is displayed on the card of each spa treatment.
+
+-I would like to find out where the spa centre is located and the contact details for making enquiries.
+* On footer and contact page the user can find all the contact details and can make an enquiry using the contact form.
+
+-I want to find out the opening and closing hours.
+* The new user can be informed of the spa's opening and closing times displayed on the footer.
+
+-I want to find out what facilities are available.
+* The new costumer  can view each facility's time availability, by tabbing on the navigation pane timetable.
+-I want to view the cost of  spa services.
+The new costumer can see the cost for each treatment in the description of the respective card.
     
 ### As a returning customer:
 
 
+-I would like to see what packages are on offer.
+* Returning costumers can achieve that by seeing the red sales badge on the top of the treatments are on offer.
+-I would like to be able to easily book a treatment.
+* Returning costumers can achieve that by clicking the book now button, placed below treatments.
+
+-I would like to see the duration of each treatment. 
+*Returning costumers can see the treatments' duration, next to the clock font awesome icon displayed on each treatment description. 
 
 ---
     
 ## Issues found during site development
+    
+-While I was checking the responsiveness of home page on Firefox Development Tools a space between navbar and  top of the page found. First the bug tried to be fixed by changing the navigation bar *margin* to 0px without any success. After realising that the space kept existing while scrolling accross all the page's content, a video's div found to overlap its containers borders and causing the space due to *margin-left:10%*. The bug fixed when a new container class created and changed the position by setting *display:flex;* and *align-items* and *justify-content* to centre.
+
+<p float="left">
+  <img src="md.images/bug-image01.png" width="45%"/>
+  <img src="md.images/bug-image02.png" width="45%"/> 
+</p>
+
+-While checking the responsiveness on iPhone 5 viewport, the hamburger menu on navigation bar, found to be pushed down below the other links. The bug fixed when the logo's left and right margin reduced and allowed the burger icon to return back on the top of the page.
+<p float="left">
+  <img src="md.images/bug-image03.png" width="45%"/>
+  <img src="md.images/bug-image04.png" width="45%"/> 
+</p>
+
+-Contact form didn't work at the beginning while clicking the submit button without having any field filled. The message "please fill in this field" didn't appear bellow the input elements and contact form didn't respond to any user's movement. The bug fixed when a form element used as a container
     
 
 
