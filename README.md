@@ -7,7 +7,7 @@
 This is a Purity Spa Website, a fictional Spa Leisure Centre, which is targeted at the prospective clients who are interested in experiencing spa treatments and other spa facilities offered. This static-website is designed to be responsive and accessible on all types of devices and created for
 educational purposes, to show my understanding and skills in design and development using HTML CSS and Bootstrap.
 
-
+Click <a href="https://konstantinastrantzali.github.io/first-milestone-project/">here</a> view the website live.
 
 
 # Table of contents
@@ -327,15 +327,64 @@ While I was checking the responsiveness of home page on Firefox Development Tool
 <br>
 While checking the responsiveness on iPhone 5 viewport, the hamburger menu on navigation bar, found to be pushed down below the other links. The bug fixed when the logo's left and right margin reduced and allowed the burger icon to return back on the top of the page.
 <p float="left">
-  <img src="md.images/bug-image03.png" width="35%" height="35%"/>
-  <img src="md.images/bug-image04.png" width="70%" height="50%" /> 
+  <img src="md.images/bug-image03.png" width="40%" height="75%"/>
+  <img src="md.images/bug-image04.png" width="45%" height="75%" /> 
 </p>
 <br>
  <br>
 Contact form didn't work at the beginning while clicking the submit button without having any field filled. The message "please fill in this field" didn't appear bellow the input elements and contact form didn't respond to any user's movement. The bug fixed when a form element used as a container
     
+## Performance testing
+    
+When I completed the website I run the Google Chrome Developer Tools [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to test it. The initial rating received for the site's performance was SMTH  due to the large size of the images. 
+ <p float="left">
+  <img src="md.images/lower-performance (2).png" width="45%" height="90%"/>
+  <img src="md.images/Lighthouse-screenshot01.png" width="45%" height="70%"/> 
+</p>
 
+For that reason, the images were compressed and uploaded again to Gitpod . The results for the subsequent test were more satisfactory. Some other changes such as shortening of class names, unnecessary external links removal, were made to improve the site's performance. 
 
+    
+## Code Validation
+
+[W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri) was used to validate the HTML documents.
+W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the style.css file. 
+    
+[Back to Table of contents](#table-of-contents)
+
+___
+# Deployment
+The project is hosted and deployed on GitHub Pages and Gitpod used as a development environment. 
+Deployment Procedure Followed:
+1. Logged in to Github and the first-milestone-project repository was selected from the other repositories list. 
+2. In the selected repository, settings was clicked from the navigation bar and after scrolling down Github Pages revealed and clicked. 
+3.On the Source subheading, on the dropdown menu clicked the default value 'None' and then first-milestone-project were selected. 
+4. Save clicked, page deployed and then published at: 
+https://konstantinastrantzali.github.io/first-milestone-project/
+
+# Credits
+
+Content for the spa treatments has been taken
+    
+### Images:
+
+#### Unsplash.com:
+*  https://unsplash.com/photos/9IcKPSQ9G5Q
+*  https://unsplash.com/photos/x2Tmfd1-SgA
+* https://unsplash.com/photos/Ruso6EXMC5U
+    
+    
+#### Freepik.com:
+* https://www.freepik.com/free-photo/spa-composition-with-body-care-items-light_9510933.htm#page=1&query=spa&position=4&from_view=search
+
+* https://www.freepik.com/free-photo/cozy-still-life-with-humidifier-interior-room-blurred-background_16771504.htm#page=1&query=Spa%20humidifier&position=3&from_view=search
+
+#### Pexels.com:
+* https://www.pexels.com/photo/man-in-black-polo-shirt-holding-orange-flower-9336031/
+
+Video:
+
+* https://www.pexels.com/video/a-woman-applying-a-face-mask-on-her-client-s-face-9335908
 
 
 
