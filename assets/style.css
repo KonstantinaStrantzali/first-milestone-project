@@ -20,22 +20,18 @@ html, body{
   color:#FAFAFA!important;
 }
 
-.navbar-nav li a:hover {
-
-  border-top: 4px solid white;
-  border-bottom: 4px solid white;
-  
-  
+.nav-item a:hover {
+  background-color: #696969;
+  color: #FAFAFA!important;
 }
-
-.logo-icon{
+.navbar-brand i{
   transform: rotate(30deg); 
   background-color:#495838;
   font-size:35px;
   margin-right: 10px;
-  margin-left:5px; 
+  margin-left:5px;
+  
 }
-
 
 /* Change the color of nav text by using !important, answer found on StackOverflow, user: dynamiclynk (https://stackoverflow.com/questions/24420080/change-navbar-text-color-bootstrap) */
  
@@ -220,6 +216,14 @@ background-color: #3A462C;
   -o-background-size: cover;
   background-size: cover;
  
+}
+.services-image{
+  background:url("/assets/images/services-image.jpg") fixed center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
 }
 
 .banner-contact{
