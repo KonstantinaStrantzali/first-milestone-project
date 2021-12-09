@@ -75,9 +75,7 @@ html, body{
 /*------------------------------------------------------> Sections */
 
   
-  btn{
-    margin-left: 20%;
-  }
+  
   
 
 
@@ -150,6 +148,7 @@ list-style-type: none;
   text-align: center;
   font-weight: 400;
   margin: 0.7em 0;
+
 }
 
 .facilities-services-section .font-icons{
@@ -181,7 +180,7 @@ background-color: #3A462C;
 
 
 /*------------------------------------------------>Containers */
-.hero-image-container{
+.hero-container{
   height: 80vh;
   display:flex;
   align-items: center;
@@ -191,14 +190,8 @@ background-color: #3A462C;
 .bannner-hero-home-image{
   height:100%;
 }
-.treatment-images{
-  height: 80vh;
-  display:flex;
-  align-items: center;
-  justify-content: center;
-  position: relative;
-}
- .facial-treatment-banner-image{
+
+ .banner-facial{
    background:url("images/facial-treatment02.png") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -206,14 +199,14 @@ background-color: #3A462C;
   background-size: cover;
 
  }
- .bamboo-massage-banner-image{
+ .banner-bamboo{
   background:url("images/massage-treatment-02.jpeg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
  }
- .sauna-banner-image{
+ .sauna-banner{
   background:url("images/sauna-banner-image.jpg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -221,7 +214,7 @@ background-color: #3A462C;
   background-size: cover;
  }
 
-.banner-image-facilities-container {
+.banner-facilities {
   background:url("images/facilities-hero-image.jpg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -229,7 +222,7 @@ background-color: #3A462C;
   background-size: cover;
  
 }
-.hero-home-image-container {
+.home-image {
   background:url("images/spapicture.jpg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -238,7 +231,7 @@ background-color: #3A462C;
  
 }
 
-.banner-image-contact-container{
+.banner-contact{
   background:url("images/contact-hero-image.jpg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -253,7 +246,7 @@ background-color: #3A462C;
   background-size: cover;
 
 }
-.facilities-massage-banner-image{
+.facilities-massage-banner{
   background:url("images/facilities-massage-image.jpeg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -307,10 +300,7 @@ background-color: #3A462C;
   font-size:30px;
 }
 
-.services-facilities-container{
-  display: flex;
-  flex-direction: column;
-}
+
 .services-info {
   flex-grow: 1;
 }
