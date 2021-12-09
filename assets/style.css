@@ -214,7 +214,7 @@ background-color: #3A462C;
  
 }
 .home-image {
-  background:url("images/spapicture.jpg") fixed center center no-repeat;
+  background:url("images/spapicture.jpeg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
