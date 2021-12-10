@@ -242,7 +242,7 @@ background-color: #3A462C;
 
 }
 .facilities-massage-banner{
-  background:url("images/facilities-massage-image.jpeg") fixed center center no-repeat;
+  background:url("/assets/images/facilities-massage-image.jpeg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
