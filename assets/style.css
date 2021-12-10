@@ -218,7 +218,7 @@ background-color: #3A462C;
  
 }
 .services-image{
-  background:url("/assets/images/services-image.jpg") fixed center center no-repeat;
+  background:url("images/services-image.jpg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -242,7 +242,7 @@ background-color: #3A462C;
 
 }
 .facilities-massage-banner{
-  background:url("/assets/images/facilities-massage-image.jpeg") fixed center center no-repeat;
+  background:url("images/facilities-massage-image.jpeg") fixed center center no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -356,6 +356,10 @@ background-color: #3A462C;
 .btn-contact{
   background-color: #3A462C !important;
   border-color: #3A462C;
+}
+
+.modal-two-title{
+  color:green;
 }
 
 
