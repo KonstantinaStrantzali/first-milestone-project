@@ -122,11 +122,93 @@
           <div><i class="far fa-clock"></i>90mins<i class="fas fa-tag ml-2"></i>70</div>
           <p class="card-text">Our Deep tissue massage uses deeper pressure techniques, which are beneficial in releasing chronic muscle tension.This massage uses slow, deep-guided strokes and firm pressure to relieve severe tension and reach below the superficial muscles. It is often recommended for individuals who experience consistent pain and soreness in both large and small muscle groups. The benefits of deep tissue massage come mainly in the form of pain relief for suffers of chronic conditions however they also include the following; reduction in muscle tension, lowered blood pressure, arthritis relief and an increase in joint mobility, to name a few.</p>
           <div class="book-button">
-            <a class="btn card-button"href="#" role="button">Book Now</a>
+            <a class="btn card-button" data-bs-toggle="modal" href="#exampleModalToggle" role="button">Book Now</a>
         </div>
         </div>
       </div>
 </div>
+
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel">Book your threatment</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form id="contactForm"onsubmit="alert('Thank you for contacting Purity Spa!Your enquiry has been submitted.')">
+
+          <!-- Name -->
+          <div class="mb-3">
+            <input class="form-control" id="name" type="text" placeholder="Name" required="required"/>
+            <div class="invalid-feedback" data-sb-feedback="name:required">Please enter your Full Name</div>
+          </div>
+          
+          <!-- Email address -->
+          <div class="mb-3">
+            <input class="form-control" id="emailAddress" type="email" placeholder="Email Address" required="required" />
+            <div class="invalid-feedback" data-sb-feedback="emailAddress:required">Please enter your Email Address.</div>
+            <div class="invalid-feedback" data-sb-feedback="emailAddress:email">Email Address invalid.</div>
+          </div>
+          <!-- Phone number -->
+          <div class="mb-3">
+            <input class="form-control" id="phone" type="phoneNumber" placeholder="Phone Number" required="required" />
+            <div class="invalid-feedback" data-sb-feedback="phoneNumber:required">Please enter Phone Number.</div>
+            <div class="invalid-feedback" data-sb-feedback="phoneNumber:number">Invalid number.Enter 8 digits.</div>
+          </div>
+          <div class="mb-3" >
+            <select class="form-control" id="selectNeed">
+              <option value="" selected disabled>Your threatment</option>
+              <option></option>
+              <option>Deep tissue massage</option>
+              <option>De-stress massage</option>
+              <option>Technical Problem</option>
+              <option>Other</option>
+            </select>
+          </div>
+           <!-- Date -->
+           <div class="mb-3">
+            Date formats: yyyy-mm-dd
+             <div class='col-sm-3'>
+                      <div class="form-group">
+                          <div class='input-group date' id='datetimepicker1'>
+                              <input type='text' class="form-control" />
+                              <span class="input-group-addon"><span class="glyphicon glyphicon-calendar"></span>
+                              </span>
+                          </div>
+                      </div>
+                  </div>
+                  </div>
+                  <div class="mb-3">
+                    <input placeholder="Selected time" type="text" id="input_starttime" class="form-control timepicker">
+                    <label for="input_starttime">Twelve hour clock</label>
+                  </div>
+          </form>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" data-bs-dismiss="modal">Sumbmit</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalToggleLabel2">Modal 2</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       Thank you for booking.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
 
 <div class="container-fluid">
