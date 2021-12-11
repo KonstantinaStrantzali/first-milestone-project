@@ -66,11 +66,18 @@ html, body{
   font-weight: 400;
   font-size:40px;
   color: black;
-
+}
+.jumbotron-sub-heading{
+  font-family:'Oswald', sans-serif;
+  font-weight: 400;
+  font-size:30px;
+  color: black;
 }
 /*------------------------------------------------------> Sections */
 
-  
+.booking-container{
+  margin-top: 5%;
+}
   
   
 
