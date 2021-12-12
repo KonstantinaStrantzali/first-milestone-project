@@ -1,40 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@200@300@400&family=Oswald&display=swap');
 
 
-
 html, body{
   font-family: 'Lato', sans-serif; 
 }
 
 /*------------------------------->Nav bar */
-
+.navbar{
+  background-color: #1F2324;
+}
 
 .navbar-brand {
+  color:#F6F6F6;
   font-size: 2rem;
   left:5px;
   font-family:"Oswald", sans-serif;
-  
+  }
+.navbar-brand:hover{
+  color:#F6F6F6 !important;
 }
+/* Change the color of nav text by using !important, answer found on StackOverflow, user: dynamiclynk (https://stackoverflow.com/questions/24420080/change-navbar-text-color-bootstrap) */
 .navbar-nav li a{
   font-size: 25px;
-  color:#FAFAFA!important;
+  color:#F6F6F6!important;
 }
-
 .nav-item a:hover {
-  background-color: #696969;
-  color: #FAFAFA!important;
+  background-color: #33472B;
+  color: #F6F6F6!important;
 }
 .navbar-brand i{
   transform: rotate(30deg); 
-  background-color:#495838;
+  background-color: #33472B;
   font-size:35px;
   margin-right: 10px;
   margin-left:5px;
   
 }
 
-/* Change the color of nav text by using !important, answer found on StackOverflow, user: dynamiclynk (https://stackoverflow.com/questions/24420080/change-navbar-text-color-bootstrap) */
- 
   /*-------------------------------------------> Jumbotrons */ 
   .jumbotron {
     background-color: transparent;
@@ -45,6 +47,19 @@ html, body{
   font-size:40px;
   
 }
+.jumbotron .jumbotron-headings{
+  font-family:'Oswald', sans-serif;
+  font-weight: 400;
+  font-size:40px;
+  color: #1F2324;
+}
+.jumbotron-sub-heading{
+  font-family:'Oswald', sans-serif;
+  font-weight: 400;
+  font-size:30px;
+  color: #1F2324;
+}
+/*------------------------------------------------------> Sections */
 .section-heading{
   font-family:'Oswald', sans-serif;
   font-weight: 400;
@@ -61,32 +76,20 @@ html, body{
   font-size:18px;
 }
 
-.jumbotron .jumbotron-headings{
-  font-family:'Oswald', sans-serif;
-  font-weight: 400;
-  font-size:40px;
-  color: black;
-}
-.jumbotron-sub-heading{
-  font-family:'Oswald', sans-serif;
-  font-weight: 400;
-  font-size:30px;
-  color: black;
-}
-/*------------------------------------------------------> Sections */
-
-.booking-container{
+.section-booking-page{
   margin-top: 5%;
 }
   
-  
+.main-section-about{
+  background-color: #F6F6F6;
+}  
 
 
 /*-------------------------------------------> Footer */
 
 
 #table{
-  color:white;
+  color:#F6F6F6;
 }
 
 .contact-info-container{
@@ -94,7 +97,7 @@ html, body{
 }
 
 .footer-area ul li a:link{
-    color: #D3D3D3;
+    color: #F6F6F6;
     text-decoration: none;
 }
  
@@ -105,7 +108,8 @@ html, body{
 }
 /* Social media item copied and then modified from: https://bbbootstrap.com/snippets/bootstrap-social-media-icons-hover-effect-29974962 */
 .footer-area{
-  color: #FAFAFA;
+  background-color: #1F2324;
+  color: #F6F6F6;
   min-height: 120px;
 } 
 .footer-area ul{
@@ -117,7 +121,7 @@ list-style-type: none;
 }
 .footer-copyright a:link, 
 .footer-copyright a:visited {
-    color: #fafafa;
+    color: #F6F6F6;
     text-decoration: none;
 }
 
@@ -128,18 +132,14 @@ list-style-type: none;
 .footer-area .list-inline .list-inline-item a i{
   margin-left:10px;
   font-size: 20px;
-  color:#FAFAFA;
+  color:#F6F6F6;
   transition: 0.4s all;
 }
 .list-inline-item i:hover {
   transform: scale(1.4);
 }
 
-
-
 /*---------------------------------------> Facilities Page */
-
-
 
  .facility-info h2 {
   text-align: center;
@@ -151,32 +151,29 @@ list-style-type: none;
 .facilities-services-section .font-icons{
   font-size:40px;
   margin-bottom: 1rem;
-  color:#3A462C;
+  color: #33472B;
   line-height: 1.6;
   
 }
 .card-button{
-  background-color:#3A462C !important;
-  color: #FAFAFA !important;
-  border-color: #3A462C;
+  background-color: #33472B !important;
+  color: #F6F6F6 !important;
+  border-color:  #33472B;
   text-decoration: none;}
   
 
 
-.timetable-class-row{
-background-color: #3A462C;
-    border: 3px solid #FAFAFA;
-    color: #FAFAFA;
+.facilities-timetable-class-row {
+background-color:  #33472B;
+    border: 3px solid #F6F6F6;
+    color: #F6F6F6;
     text-align: center;
-    border-radius: .5rem;
     padding: 15px;
     margin-left: 15px;
     margin-right: 15px;
 }
 
-
-
-/*------------------------------------------------>Containers */
+/*------------------------------------------------>Banner-Images-Containers */
 .hero-container{
   height: 80vh;
   display:flex;
@@ -258,19 +255,32 @@ background-color: #3A462C;
 }
 
 .hero-images-headings{
-  color:#FAFAFA;
+  color:#F6F6F6;
   font-weight: bold;
 }
+.facilities-timetable #navTab a:hover,
+.facilities-timetable #navTab a:active,
+.facilities-timetable #navTab a:focus,
+.facilities-timetable #navTab a:active:focus {
+    color:#1F2324ff;
+    text-decoration: none;
+    background-color:#F6F6F6;
+}
+.nav-tabs .nav-link {
+  background-color:  #33472B;
+  margin: 4px;
+  color:#F6F6F6;
+}
 
-
+/*------------------------------------------------>Font Awesome & Badges */
 .fa-clock{
   font-size:20px;
-  color: #3A462C;
+  color: #33472B;
   margin: 20px 5px;
 }
 .fa-tag{
   font-size:20px;
-  color: #3A462C;
+  color:  #33472B;
   margin-left:10px;
   margin-right:5px;
 }
@@ -292,11 +302,11 @@ background-color: #3A462C;
   font-size: 20px;
   margin-right: 20px;
   padding:10px;
-  background: #3A462C;
+  background:  #33472B;
   border-radius: 50%;
 }
 .contact-details .font-icon{
-  color: #FAFAFA;
+  color: #F6F6F6;
 }
 .contact-details span i:hover {
   font-size:30px;
@@ -309,7 +319,7 @@ background-color: #3A462C;
 .card-title{
   font-size:20px;
   font-weight:300;
-  color:#080808
+  color:#1F2324;
 }
 
 .card-container {
@@ -317,32 +327,20 @@ background-color: #3A462C;
   flex-direction:column;
 }
 
-.facilities-timetable #navTab a:hover,
-.facilities-timetable #navTab a:active,
-.facilities-timetable #navTab a:focus,
-.facilities-timetable #navTab a:active:focus {
-    color:#080808;
-    text-decoration: none;
-    background-color:#FAFAFA;
-}
-.nav-tabs .nav-link {
-  background-color: #3A462C;
-  margin: 4px;
-  color:#FAFAFA;
-}
 
-.masage-benefits-container {
-  background-color: #3A462C;
-  box-shadow: black;
+
+.massage-benefits-section {
+  background-color: #33472B;
+  box-shadow: #1F2324;
 }
 .massage-benefits-content p{
-  background-color: #FAFAFA;
+  background-color: #F6F6F6;
 }
 .benefits-heading{
   font-family:'Oswald', sans-serif;
   font-weight: 400;
   font-size:40px;
-  color:#FAFAFA;
+  color:#F6F6F6;
 }
 
 .subheading-massage-benefits{
@@ -361,8 +359,8 @@ background-color: #3A462C;
 
 }
 .btn-contact{
-  background-color: #3A462C !important;
-  border-color: #3A462C;
+  background-color:  #33472B !important;
+  border-color: #33472B;
 }
 
 .modal-two-title{
