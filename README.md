@@ -125,12 +125,12 @@ The UI wireframing tool I used to create wireframes for each page as it would ap
 The colour scheme was chosen with the main color a shade of green, which stands for balance, nature and rebirth and intended to envoke prosperity and freshness to the potential spa costumers. 
 
 <p float="center">
-  <img src="md.images/color-pallete.png" width="80%"/>
+  <img src="md.images/color-palette.png" width="80%"/>
 
 Main colours used in a project:
-* background color: #FFFFFF and #336600
-* font color, navigation-bar and footer: #222224
-* hover color: #696969
+* background color: #F6F6F6 and #33472B
+* navigation-bar and footer: #1F2324
+* hover color: #33472B
 * ---- #D3D3D3
 
 ### Fonts 
@@ -147,7 +147,7 @@ Websites used to source royalty free images.
 [Back to Table of contents](#table-of-contents)
     
 # Features
-The website consists of 6 pages. Four are accessible from a navigation menu.
+The website consists of 5 pages and only the four are accessible from a navigation menu. The fifth is a booking page and can only be accessable on a new window when the user hits the Book Now button on the Services Page.
 One is a 404 error page and one is a submission confirmation page for a form.
 
 The website has below features:
@@ -320,16 +320,16 @@ To be created
 While I was checking the responsiveness of home page on Firefox Development Tools a space between navbar and  top of the page found. First the bug tried to be fixed by changing the navigation bar *margin* to 0px without any success. After realising that the space kept existing while scrolling accross all the page's content, a video's div found to overlap its containers borders and causing the space due to *margin-left:10%*. The bug fixed when a new container class created and changed the position by setting *display:flex;* and *align-items* and *justify-content* to centre.
 
 <p float="center">
-  <img src="md.images/bug-image01.png" width="35%"  height="35%"/>
-  <img src="md.images/bug-image02.png" width="45%"/> 
+  <img src="md.images/bug-image01.png" width="40%"  height="45%"/>
+  <img src="md.images/bug-image02.png" width="55%"/> 
 </p>
 <br>
 <br>
 While checking the responsiveness on iPhone 5 viewport, the hamburger menu on navigation bar, found to be pushed down below the other links. The bug fixed when the logo's left and right margin reduced and allowed the burger icon to return back on the top of the page.
-<p float="left">
-  <img src="md.images/bug-image03.png" width="40%" height="75%"/>
-  <img src="md.images/bug-image04.png" width="45%" height="75%" /> 
-</p>
+<p float="center">
+  <img src="md.images/bug-image03.png" width="60%"/>
+  <img src="md.images/bug-image04.png" width="80%"/> 
+    </p>
 <br>
  <br>
 Contact form didn't work at the beginning while clicking the submit button without having any field filled. The message "please fill in this field" didn't appear bellow the input elements and contact form didn't respond to any user's movement. The bug fixed when a form element used as a container
@@ -338,17 +338,25 @@ Contact form didn't work at the beginning while clicking the submit button witho
     
 When I completed the website I run the Google Chrome Developer Tools [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to test it. The initial rating received for the site's performance was SMTH  due to the large size of the images. 
  <p float="left">
-  <img src="md.images/lower-performance (2).png" width="45%" height="90%"/>
-  <img src="md.images/Lighthouse-screenshot01.png" width="45%" height="70%"/> 
+  <img src="md.images/lower-performance (2).png" width="90%" height="80%"/>
+  <img src="md.images/Lighthouse-screenshot01.png" width="90%" height="70%"/> 
 </p>
 
 For that reason, the images were compressed and uploaded again to Gitpod . The results for the subsequent test were more satisfactory. Some other changes such as shortening of class names, unnecessary external links removal, were made to improve the site's performance. 
 
     
 ## Code Validation
-
+I used the following websites to test my code.
 [W3C HTML Validation Service](https://validator.w3.org/#validate_by_uri) was used to validate the HTML documents.
 W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was used to validate the style.css file. 
+
+    
+ - Home page passed [Results](md.images/home-page-validation-results.png)
+ - Services page passed [Results](md.images/services-page-validation-results.png)
+ - Facilities page passed [Results](md.images/facilities-page-validation-results.png)
+ - Contact page passed [Results](md.images/contact-page-validation-results.png)
+ - Booking page passed [Results](md.images/facilities-page-validation-results.png) 
+ - CSS file passed [Results](md.images/CSS-validation-result)
     
 [Back to Table of contents](#table-of-contents)
 
@@ -364,14 +372,16 @@ https://konstantinastrantzali.github.io/first-milestone-project/
 
 # Credits
 
-Content for the spa treatments has been taken
+* The Content for the spa treatments has been taken from [Spa & Massage](https://www.spaandmassage.co.uk/aromatherapy).
+* The Content for the benefits of massage copied from [Mayo Clinic](https://www.mayoclinic.org/healthy-lifestyle/stress-management/basics/stress-basics/hlv-20049495)
     
 ### Images:
 
 #### Unsplash.com:
 *  https://unsplash.com/photos/9IcKPSQ9G5Q
 *  https://unsplash.com/photos/x2Tmfd1-SgA
-* https://unsplash.com/photos/Ruso6EXMC5U
+*  https://unsplash.com/photos/Ruso6EXMC5U
+*  https://unsplash.com/photos/8ioenvmof-I
     
     
 #### Freepik.com:
@@ -381,9 +391,10 @@ Content for the spa treatments has been taken
 
 #### Pexels.com:
 * https://www.pexels.com/photo/man-in-black-polo-shirt-holding-orange-flower-9336031/
-
+* https://www.pexels.com/photo/a-person-having-a-body-massage-9335988/
+* https://www.pexels.com/photo/man-people-woman-relaxation-9336012/
+* https://www.pexels.com/photo/food-light-dawn-man-9154453/
 Video:
-
 * https://www.pexels.com/video/a-woman-applying-a-face-mask-on-her-client-s-face-9335908
 
 
