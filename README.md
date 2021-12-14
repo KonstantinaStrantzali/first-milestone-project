@@ -135,7 +135,8 @@ Main colours used in a project:
 
 ### Fonts 
 
-* ----------------------------------------------------
+* Main content font-family: Roboto, sans-serif
+* Headings and subheadings: EB Garamond, serif;
 
 ### Images
 Websites used to source royalty free images.
@@ -253,24 +254,22 @@ Using Mozilla and Google Chrome Development tools the project was tested to all 
     
 &#9745;I want to present potential costumers information about the spa center so that they understand what facilities and services are available there.
     
-* A facilities page is made to show the potential costumers the facilities can be visit on spa and read a short description for them underneath. Furthermore they can check facilities' availability by clicking the corresponding button.
-    
-* A services page is made to present a detailed description of the treatments are offered.
+* A facilities page is made to show the potential costumers the facilities can be visit on spa and read a short description for them underneath. Furthermore they can check facilities' availability by clicking the corresponding button.[View screenshot here](md.images/facilities-screenshot.png)
+* A services page is made to present a detailed description of the treatments are offered. [View screenshot here](md.images/services-description-screenshot.png)
+
 <br>
 &#9745;I want the potential costumers to be able to book spa treatments easily.
-To be created
-    
-* The costumers can easily book a spa treatment by clicking the button below the product they like.
+* The costumers can easily book a spa treatment by clicking the button below the product they like. [View screenshot here](md.images/booking-form-screenshot.png)
 <br>
-&#9745; I want the potential costumers to be able to find where the spa center is located, its opening hours, packages and their respective prices.
+&#9745; I want the potential costumers to be able to find where the spa center is located, its opening hours, packages and their respective prices. 
     
-* Οn each page's footer consistently displayed the opening hours information and the location of the spa by providing the address written and a Google maps *<iframe>*
+* Οn each page's footer consistently displayed the opening hours information and the location of the spa by providing the address written and a Google maps *<iframe>* [View screenshot here](md.images/opening-hours-screenshot.png)
     
-* On services page the new costumer can see the treatments' prices right below the treatments' titles.
+* On services page the new costumer can see the treatments' prices right below the treatments' titles. [View screenshot here](md.images/services-description-screenshot.png)
     
 <br>
 &#9745; want to make sure that the potential clients will be able to contact with the spa centre and easily using the contact form.
-* The contact page includes a contact form that the potential costumer can use to contact with the spa center and submit an enquiry.
+* The contact page includes a contact form that the potential costumer can use to contact with the spa center and submit an enquiry.[View screenshot here](md.images/contact-form-screenshot.png)
 
 
 ### As a new customer:
@@ -280,38 +279,38 @@ To be created
 * All the information of the website is  clearly displayed to the user,  in an attractive and informative way by using appealing images, banners, videos, animated headings,timetables, badges and font awesome icons to understand the content at glance. The user can easily access to all the information through navigation bar and have a positive and trustworthy experience.
 <br>
 &#9745;I would like to find a detailed description of the treatments are being offered in the packages.
-    
-* A detailed description is displayed on the card of each spa treatment.
+* A detailed description is displayed on the card of each spa treatment.(md.images/services-description-screenshot.png)
 <br>
-&#9745;I would like to find out where the spa centre is located and the contact details for making enquiries.
+&#9745;I would like to find out where the spa centre is located and the contact details for making enquiries. 
     
-* On footer and contact page the user can find all the contact details and can make an enquiry using the contact form.
+* On footer and contact page the user can find all the contact details and can make an enquiry using the contact form.[View screenshot here](md.images/opening-hours-screenshot.png)
+    
 <br>
 &#9745;I want to find out the opening and closing hours.
     
-* The new user can be informed of the spa's opening and closing times displayed on the footer.
+* The new user can be informed of the spa's opening and closing times displayed on the footer.[View screenshot here](md.images/opening-hours-screenshot.png)
 <br>
 &#9745;I want to find out what facilities are available.
     
-* The new costumer  can view each facility's time availability, by tabbing on the navigation pane timetable.
+* The new costumer  can view each facility's time availability, by tabbing on the navigation pane timetable.[View screenshot here](md.images/facilities-screenshot.png)
 <br>
 &#9745;I want to view the cost of  spa services.
     
-* The new costumer can see the cost for each treatment in the description of the respective card.
+* The new costumer can see the cost for each treatment in the description of the respective card. [View screenshot here](md.images/services'-cost-screenshot.png)
     
 ### As a returning customer:
 <br>
-&#9745;I would like to see what packages are on offer.
+&#9745;I would like to see what packages are on offer. [View screenshot here](md.images/services'-cost-screenshot.png)
     
-* Returning costumers can achieve that by seeing the red sales badge on the top of the treatments are on offer.
+* Returning costumers can achieve that by seeing the red sales badge on the top of the treatments are on offer. [View screenshot here](md.images/sales-packages-screenshot.png)
 <br>
 &#9745;I would like to be able to easily book a treatment.
     
-* Returning costumers can achieve that by clicking the book now button, placed below treatments.
+* Returning costumers can achieve that by clicking the book now button, placed below treatments.[View screenshot here](md.images/booking-form-screenshot.png)
 
 &#9745;I would like to see the duration of each treatment. 
     
-* Returning costumers can see the treatments' duration, next to the clock font awesome icon displayed on each treatment description. 
+* Returning costumers can see the treatments' duration, next to the clock font awesome icon displayed on each treatment description.[View screenshot here](md.images/duration-of-treatments-screenshot.png)
 
 ---
     
@@ -355,7 +354,7 @@ W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was u
  - Services page passed [Results](md.images/services-page-validation-results.png)
  - Facilities page passed [Results](md.images/facilities-page-validation-results.png)
  - Contact page passed [Results](md.images/contact-page-validation-results.png)
- - Booking page passed [Results](md.images/facilities-page-validation-results.png) 
+ - Booking page passed [Results](md.images/booking-page-validation-results.png) 
  - CSS file passed [Results](md.images/CSS-validation-result)
     
 [Back to Table of contents](#table-of-contents)
