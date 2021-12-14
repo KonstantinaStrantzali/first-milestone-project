@@ -1,8 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@200@300@400&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Roboto:ital,wght@0,300;0,400;0,500;1,300&display=swap');
 
 
 html, body{
-  font-family: 'Lato', sans-serif; 
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
+  font-size:18px;
 }
 
 /*------------------------------->Nav bar */
@@ -12,9 +14,9 @@ html, body{
 
 .navbar-brand {
   color:#F6F6F6;
-  font-size: 2rem;
+  font-size: 25px;
   left:5px;
-  font-family:"Oswald", sans-serif;
+  font-family:'Roboto', sans-serif;
   }
 .navbar-brand:hover{
   color:#F6F6F6 !important;
@@ -41,38 +43,36 @@ html, body{
   .jumbotron {
     background-color: transparent;
   }
- .jumbotron .jumbotron-main-headings{
-  font-family:'Oswald', sans-serif;
-  font-weight: 400;
-  font-size:40px;
-  
-}
+
 .jumbotron .jumbotron-headings{
-  font-family:'Oswald', sans-serif;
-  font-weight: 400;
+  font-family:'EB Garamond', serif;
+  font-style: italic;
+  font-weight:500;
   font-size:40px;
   color: #1F2324;
 }
 .jumbotron-sub-heading{
-  font-family:'Oswald', sans-serif;
-  font-weight: 400;
-  font-size:30px;
+  font-family:'EB Garamond', serif;
+  font-style: italic;
+  font-weight:400;
+  font-size:40px;
   color: #1F2324;
 }
 /*------------------------------------------------------> Sections */
 .section-heading{
-  font-family:'Oswald', sans-serif;
-  font-weight: 400;
+  font-family:'Roboto', sans-serif;
+  font-weight:400;
   font-size:40px;
 }
 .section-sub-heading{
-  font-family:'Oswald', sans-serif;
-  font-weight: 400;
+  font-family:'EB Garamond', serif;
+  font-style: italic;
+  font-weight:500;
   font-size:30px;
 }
 .section-content{
-  font-family:'Lato', sans-serif;
-  font-weight: 200;
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
   font-size:18px;
 }
 
@@ -114,6 +114,7 @@ html, body{
 /* Social media item copied and then modified from: https://bbbootstrap.com/snippets/bootstrap-social-media-icons-hover-effect-29974962 */
 .footer-area{
   background-color: #1F2324;
+  font-size: 16px;
   color: #F6F6F6;
   min-height: 120px;
 } 
@@ -122,7 +123,8 @@ list-style-type: none;
 
 }
 .footer-headings{
-  font-family:'Lato', sans-serif;
+  font-family:'Roboto', sans-serif;
+  font-size: 19px;;
 }
 .footer-copyright a:link, 
 .footer-copyright a:visited {
@@ -191,6 +193,28 @@ background-color:  #33472B;
   background-color: #3A462C;
   margin: 4px;
   color:#FAFAFA;
+}
+.card-text{
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
+  font-size:18px;
+
+}
+.services-info {
+  flex-grow: 1;
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
+  font-size:18px;
+}
+.card-container {
+  display:flex;
+  flex-direction:column;
+}
+.card-container h5 {
+  font-family:'Roboto', sans-serif;
+  font-size:25px;
+  font-weight:500;
+ 
 }
 
 /*------------------------------------------------>Banner-Images-Containers */
@@ -292,11 +316,12 @@ background-color:  #33472B;
   margin-right:5px;
 }
 .badge-treatment{
-  margin-left:100px;
+  margin-left:20px;
 }
 .badge-sales{
-  margin-left:20px;
-  font-size: 15px;
+  margin-left:15px;
+  font-size: 13px;
+
 }
 .strike-through{
   color:rgb(133, 130, 130);
@@ -312,46 +337,37 @@ background-color:  #33472B;
   background:  #33472B;
   border-radius: 50%;
 }
+.contact-details p{
+  font-family:'Roboto', sans-serif;
+  font-weight: 400;
+  font-size:18px;
+
+}
 .contact-details .font-icon{
   color: #F6F6F6;
 }
 .contact-details span i:hover {
   font-size:30px;
 }
+.btn-contact{
+  background-color:  #33472B !important;
+  border-color: #33472B;
+}
 
 /* -----------------------------------------Services Page */
-.services-info {
-  flex-grow: 1;
-}
-.card-container {
-  display:flex;
-  flex-direction:column;
-}
+
 .card-title{
-  font-size:20px;
-  font-weight:300;
+  font-family:'Roboto', sans-serif;
+  font-size:23px;
+  font-weight:500;
   color:#1F2324;
 }
 
-
-
 .benefits-heading{
   font-family:'Oswald', sans-serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size:40px;
   color:#F6F6F6;
-}
-
-
-
-
-
-.subheading-massage-benefits{
-  font-family:'Oswald', sans-serif;
-  margin-bottom: 20px;
-  font-weight: 400;
-  font-size:25px;
- 
 }
 
 .video-container{
@@ -359,16 +375,11 @@ background-color:  #33472B;
   justify-content:center;
   align-items: center;
   
-
-}
-.btn-contact{
-  background-color:  #33472B !important;
-  border-color: #33472B;
 }
 
-.modal-two-title{
-  color:green;
-}
+
+
+
 @media only screen and (max-width: 600px) {
   .list-inline {
     margin-left:10px;
@@ -380,6 +391,3 @@ background-color:  #33472B;
     padding:10px;
   }
 }
-
-
-
