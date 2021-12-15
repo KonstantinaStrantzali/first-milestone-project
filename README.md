@@ -131,7 +131,7 @@ Main colours used in a project:
 * background color: #F6F6F6 and #33472B
 * navigation-bar and footer: #1F2324
 * hover color: #33472B
-* ---- #D3D3D3
+* 
 
 ### Fonts 
 
@@ -149,7 +149,7 @@ Websites used to source royalty free images.
     
 # Features
 The website consists of 5 pages and only the four are accessible from a navigation menu. The fifth is a booking page and can only be accessable on a new window when the user hits the Book Now button on the Services Page.
-One is a 404 error page and one is a submission confirmation page for a form.
+
 
 The website has below features:
 
@@ -237,7 +237,7 @@ Thoughout the development process  [Google Chrome Developer Tools](https://devel
 Using Mozilla and Google Chrome Development tools the project was tested to all the avaliable supported devices viewport such as:
 - Apple iPad
 - Apple iPad Pro
-- Microsoft Surface Duo
+- Apple Mini
 - Motorola G4
 - Samsung Galaxy S5
 - Google Pixel 2/2 XL
@@ -255,20 +255,23 @@ Using Mozilla and Google Chrome Development tools the project was tested to all 
 &#9745;I want to present potential costumers information about the spa center so that they understand what facilities and services are available there.
     
 * A facilities page is made to show the potential costumers the facilities can be visit on spa and read a short description for them underneath. Furthermore they can check facilities' availability by clicking the corresponding button.[View screenshot here](md.images/facilities-screenshot.png)
+    
 * A services page is made to present a detailed description of the treatments are offered. [View screenshot here](md.images/services-description-screenshot.png)
 
 <br>
 &#9745;I want the potential costumers to be able to book spa treatments easily.
+    
 * The costumers can easily book a spa treatment by clicking the button below the product they like. [View screenshot here](md.images/booking-form-screenshot.png)
 <br>
 &#9745; I want the potential costumers to be able to find where the spa center is located, its opening hours, packages and their respective prices. 
     
-* Οn each page's footer consistently displayed the opening hours information and the location of the spa by providing the address written and a Google maps *<iframe>* [View screenshot here](md.images/opening-hours-screenshot.png)
+* Οn each page's footer consistently displayed the opening hours information and the location of the spa by providing the address written and a Google maps *<iframe>* [View screenshot here](md.images/footer-contact-details.png)
     
 * On services page the new costumer can see the treatments' prices right below the treatments' titles. [View screenshot here](md.images/services-description-screenshot.png)
     
 <br>
-&#9745; want to make sure that the potential clients will be able to contact with the spa centre and easily using the contact form.
+&#9745; I want to make sure that the potential clients will be able to contact with the spa centre and easily using the contact form.
+    
 * The contact page includes a contact form that the potential costumer can use to contact with the spa center and submit an enquiry.[View screenshot here](md.images/contact-form-screenshot.png)
 
 
@@ -276,14 +279,15 @@ Using Mozilla and Google Chrome Development tools the project was tested to all 
     
 &#9745;I want to be convinced as to why should I become a costumer of this spa center.
     
-* All the information of the website is  clearly displayed to the user,  in an attractive and informative way by using appealing images, banners, videos, animated headings,timetables, badges and font awesome icons to understand the content at glance. The user can easily access to all the information through navigation bar and have a positive and trustworthy experience.
+* All the information of the website is  clearly displayed to the user,  in an attractive and informative way by using appealing images, banners, videos, animated headings,timetables, badges and font awesome icons to understand the content at glance. The user can easily access to all the information through navigation bar and have a positive and trustworthy experience.(md.images/reasons-to-visit.png)
 <br>
 &#9745;I would like to find a detailed description of the treatments are being offered in the packages.
+    
 * A detailed description is displayed on the card of each spa treatment.(md.images/services-description-screenshot.png)
 <br>
 &#9745;I would like to find out where the spa centre is located and the contact details for making enquiries. 
     
-* On footer and contact page the user can find all the contact details and can make an enquiry using the contact form.[View screenshot here](md.images/opening-hours-screenshot.png)
+* On footer and contact page the user can find all the contact details and can make an enquiry using the contact form.[View screenshot here](md.images/footer-contact-details.png)
     
 <br>
 &#9745;I want to find out the opening and closing hours.
@@ -292,17 +296,17 @@ Using Mozilla and Google Chrome Development tools the project was tested to all 
 <br>
 &#9745;I want to find out what facilities are available.
     
-* The new costumer  can view each facility's time availability, by tabbing on the navigation pane timetable.[View screenshot here](md.images/facilities-screenshot.png)
+* The new costumer  can view each facility's time availability, by tabbing on the navigation pane timetable.[View screenshot here](md.images/facilities-avaliability.png)
 <br>
 &#9745;I want to view the cost of  spa services.
     
-* The new costumer can see the cost for each treatment in the description of the respective card. [View screenshot here](md.images/services'-cost-screenshot.png)
+* The new costumer can see the cost for each treatment in the description of the respective card. [View screenshot here](md.images/sales-packages-screenshot.png)
     
 ### As a returning customer:
 <br>
-&#9745;I would like to see what packages are on offer. [View screenshot here](md.images/services'-cost-screenshot.png)
+&#9745;I would like to see what packages are on offer.
     
-* Returning costumers can achieve that by seeing the red sales badge on the top of the treatments are on offer. [View screenshot here](md.images/sales-packages-screenshot.png)
+* Returning costumers can achieve that by seeing the red sales badge on the top of the treatments are on offer.[View screenshot here](md.images/sales-packages-screenshot.png)
 <br>
 &#9745;I would like to be able to easily book a treatment.
     
@@ -355,7 +359,7 @@ W3C CSS Validation Service](https://jigsaw.w3.org/css-validator/validator) was u
  - Facilities page passed [Results](md.images/facilities-page-validation-results.png)
  - Contact page passed [Results](md.images/contact-page-validation-results.png)
  - Booking page passed [Results](md.images/booking-page-validation-results.png) 
- - CSS file passed [Results](md.images/CSS-validation-result)
+ - CSS file passed [Results](md.images/CSS-validation-result.png)
     
 [Back to Table of contents](#table-of-contents)
 
@@ -368,6 +372,8 @@ Deployment Procedure Followed:
 3.On the Source subheading, on the dropdown menu clicked the default value 'None' and then first-milestone-project were selected. 
 4. Save clicked, page deployed and then published at: 
 https://konstantinastrantzali.github.io/first-milestone-project/
+    
+For running the project locally click the repository to download it after logging in to Github and then select Code for finding the Zip file. You can view and use the project on you local environment after extracting the Zip file. Other ways to use or run the project is to [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) into your Github account.
 
 # Credits
 
