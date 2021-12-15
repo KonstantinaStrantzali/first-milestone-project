@@ -395,25 +395,31 @@ background-color:  #33472B;
     
   }
 }
-@media only screen and (min-width:750px) and (max-width: 1100px) {
-  .video-container {
-   
-    
-  }
-}
 
-@media only screen and (min-width:900px) and (max-width: 100px) {
+
+@media only screen and (min-width:900px) and (max-width: 1220px) {
   .google-maps {
    width: 400px;
     
   }
 }
-@media only screen and (min-width:900px) and (max-width: 1100px) {
+@media only screen and (min-width:900px) and (max-width: 1220px) {
   .footer-area .list-inline,.footer-headings-follow-us {
    display:none;
     
   }
 }
+
+@media only screen and (min-width:500px) {
+  .table-footer, .list-inline, .footer-headings-info {
+   text-align: center;
+    
+  }
+}
+
+
+
+
 @media only screen and (max-width:500px) {
   .table-footer {
     text-align: center; 
