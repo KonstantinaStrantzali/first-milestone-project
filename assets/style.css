@@ -2,9 +2,8 @@
 
 
 html, body{
-  font-family:'Roboto', sans-serif;
-  font-weight: 400;
-  font-size:18px;
+ margin:0px;
+ font-family:'Roboto', sans-serif;
 }
 
 /*------------------------------->Nav bar */
@@ -354,7 +353,7 @@ background-color:  #33472B;
   border-color: #33472B;
 }
 
-/* -----------------------------------------Services Page */
+
 
 .card-title{
   font-family:'Roboto', sans-serif;
@@ -374,20 +373,49 @@ background-color:  #33472B;
   display:flex;
   justify-content:center;
   align-items: center;
+  margin-top: -120px;
   
 }
-
-
-
 
 @media only screen and (max-width: 600px) {
   .list-inline {
     margin-left:10px;
   }
 }
+
 @media only screen and (max-width:600px) {
   .services-headings {
     margin-top:50%;
     padding:10px;
+  }
+}
+@media only screen and (min-width:750px) and (max-width: 1100px) {
+  .img-thumbnail {
+   margin-top:150px;
+    
+  }
+}
+@media only screen and (min-width:750px) and (max-width: 1100px) {
+  .video-container {
+   
+    
+  }
+}
+
+@media only screen and (min-width:900px) and (max-width: 100px) {
+  .google-maps {
+   width: 400px;
+    
+  }
+}
+@media only screen and (min-width:900px) and (max-width: 1100px) {
+  .footer-area .list-inline,.footer-headings-follow-us {
+   display:none;
+    
+  }
+}
+@media only screen and (max-width:500px) {
+  .table-footer {
+    text-align: center; 
   }
 }
