@@ -111,6 +111,7 @@ The UI wireframing tool I used to create wireframes for each page as it would ap
   <img src="md.images/facilities-page.png" width="45%"/>
   <img src="md.images/facilities-page-mobile.png" width="45%"/> 
 </p>
+The final layout of facilities is quite different with the one that initially disigned. The facilities finally presented on columns aligned next each other and on the top has been placed a font awesomes, for user to understand at a glance.
 
 ### Contact Page
 
@@ -122,7 +123,7 @@ The UI wireframing tool I used to create wireframes for each page as it would ap
 ## Surface
 
 ### Colors
-The colour scheme was chosen with the main color a shade of green, which stands for balance, nature and rebirth and intended to envoke prosperity and freshness to the potential spa costumers. 
+The colour scheme was chosen with the main color a shade of green, which stands for balance, nature and rebirth, exacly what our website represent and intended to envoke prosperity and freshness to the potential spa costumers. 
 
 <p float="center">
   <img src="md.images/color-palette.png" width="80%"/>
@@ -131,7 +132,7 @@ Main colours used in a project:
 * background color: #F6F6F6 and #33472B
 * navigation-bar and footer: #1F2324
 * hover color: #33472B
-* 
+
 
 ### Fonts 
 
@@ -190,7 +191,7 @@ The white background helps the product content stands out while the full-width *
 
 ##  Future implementations
 
-* Contact form to be submitted and costumers' data to be sent to a server. 
+* Contact form that can be submitted and costumers' data to be sent to a server. 
 * An online payment system so costumers can buy spa treatments and pay immediatly from the site.
 * An online booking system for costumers to book the spa tratments.
 * The brand domain name to be given to the website.
@@ -240,7 +241,6 @@ Using Mozilla and Google Chrome Development tools the project was tested to all 
 - Apple Mini
 - Motorola G4
 - Samsung Galaxy S5
-- Google Pixel 2/2 XL
 - Apple iPhone 5/SE
 - Apple iPhone 6/7/8
 - Apple iPhone 6/7/8 Plus
@@ -254,16 +254,17 @@ Using Mozilla and Google Chrome Development tools the project was tested to all 
     
 &#9745;I want to present potential costumers information about the spa center so that they understand what facilities and services are available there.
     
-* A facilities page is made to show the potential costumers the facilities can be visit on spa and read a short description for them underneath. Furthermore they can check facilities' availability by clicking the corresponding button.[View screenshot here](md.images/facilities-screenshot.png)
+* A facilities page has been made to show the potential costumers the facilities can be visit on spa and read a short description for them underneath. Furthermore they can check facilities' availability by clicking the corresponding button.[View screenshot here](md.images/facilities-screenshot.png) 
     
-* A services page is made to present a detailed description of the treatments are offered. [View screenshot here](md.images/services-description-screenshot.png)
+* A services page has been made to present a detailed description of the treatments are offered. [View screenshot here](md.images/services-description-screenshot.png)
 
 <br>
 &#9745;I want the potential costumers to be able to book spa treatments easily.
     
-* The costumers can easily book a spa treatment by clicking the button below the product they like. [View screenshot here](md.images/booking-form-screenshot.png)
+* The costumers can easily book a spa treatment by clicking the button below the product they like. [View screenshot here](md.images/booking-form-screenshot.png) and 
+[View screenshot here](md.images/footer-contact-details.png)
 <br>
-&#9745; I want the potential costumers to be able to find where the spa center is located, its opening hours, packages and their respective prices. 
+&#9745;I want the potential costumers to be able to find where the spa center is located, its opening hours, packages and their respective prices. 
     
 * Οn each page's footer consistently displayed the opening hours information and the location of the spa by providing the address written and a Google maps *<iframe>* [View screenshot here](md.images/footer-contact-details.png)
     
@@ -279,15 +280,15 @@ Using Mozilla and Google Chrome Development tools the project was tested to all 
     
 &#9745;I want to be convinced as to why should I become a costumer of this spa center.
     
-* All the information of the website is  clearly displayed to the user,  in an attractive and informative way by using appealing images, banners, videos, animated headings,timetables, badges and font awesome icons to understand the content at glance. The user can easily access to all the information through navigation bar and have a positive and trustworthy experience.(md.images/reasons-to-visit.png)
+* All the information of the website is  clearly displayed to the user,  in an attractive and informative way by using appealing images, banners, videos, animated headings,timetables, badges and font awesome icons to understand the content at glance. The user can easily access to all the information through navigation bar and have a positive and trustworthy experience.[View screenshot here](md.images/reasons-to-visit.png)
 <br>
 &#9745;I would like to find a detailed description of the treatments are being offered in the packages.
     
-* A detailed description is displayed on the card of each spa treatment.(md.images/services-description-screenshot.png)
+* A detailed description is displayed on the card of each spa treatment.[View screenshot here](md.images/services-description-screenshot.png)
 <br>
 &#9745;I would like to find out where the spa centre is located and the contact details for making enquiries. 
     
-* On footer and contact page the user can find all the contact details and can make an enquiry using the contact form.[View screenshot here](md.images/footer-contact-details.png)
+* On footer and contact page the user can find all the contact details and can make an enquiry using the contact form.[View screenshot here](md.images/footer-contact-details.png) and [View screenshot here](md.images/contact-form-screenshot.png)
     
 <br>
 &#9745;I want to find out the opening and closing hours.
@@ -340,12 +341,16 @@ Contact form didn't work at the beginning while clicking the submit button witho
 ## Performance testing
     
 When I completed the website I run the Google Chrome Developer Tools [Lighthouse](https://developers.google.com/web/tools/lighthouse/) to test it. The initial rating received for the site's performance was SMTH  due to the large size of the images. 
- <p float="left">
+ <p float="center">
   <img src="md.images/lower-performance (2).png" width="90%" height="80%"/>
-  <img src="md.images/Lighthouse-screenshot01.png" width="90%" height="70%"/> 
+ 
 </p>
 
-For that reason, the images were compressed and uploaded again to Gitpod . The results for the subsequent test were more satisfactory. Some other changes such as shortening of class names, unnecessary external links removal, were made to improve the site's performance. 
+For that reason, the images were compressed and uploaded again to Gitpod . The results for the subsequent test were more satisfactory.
+    <p float="center">
+  <img src="md.images/higher-performance.png" width="90%" height="80%"/>
+    </p>
+    Some other changes such as shortening of class names, unnecessary external links removal, were made to improve the site's performance. 
 
     
 ## Code Validation
@@ -376,9 +381,17 @@ https://konstantinastrantzali.github.io/first-milestone-project/
 For running the project locally click the repository to download it after logging in to Github and then select Code for finding the Zip file. You can view and use the project on you local environment after extracting the Zip file. Other ways to use or run the project is to [Clone](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository) or [Fork](https://docs.github.com/en/free-pro-team@latest/github/getting-started-with-github/fork-a-repo) into your Github account.
 
 # Credits
-
-* The Content for the spa treatments has been taken from [Spa & Massage](https://www.spaandmassage.co.uk/aromatherapy).
-* The Content for the benefits of massage copied from [Mayo Clinic](https://www.mayoclinic.org/healthy-lifestyle/stress-management/basics/stress-basics/hlv-20049495)
+Content 
+* The Content for spa treatments has been copied and then modified from [Spa & Massage](https://www.spaandmassage.co.uk/aromatherapy).
+* The Content for benefits of massage copied from [Mayo Clinic](https://www.mayoclinic.org/healthy-lifestyle/stress-management/basics/stress-basics/hlv-20049495)
+ 
+The following Boostrap components were used and modified:
+    
+   * [Collapsible navbar and toggler](https://getbootstrap.com/docs/5.0/components/navbar/) 
+   * [Card](https://getbootstrap.com/docs/5.0/components/card/)
+   * Navigational Tabs](https://getbootstrap.com/docs/4.5/components/navs/#tabs)
+   * [Form](https://getbootstrap.com/docs/5.0/forms/overview/) 
+   * [Jumbotron] (https://getbootstrap.com/docs/5.0/examples/jumbotron/)
     
 ### Images:
 
