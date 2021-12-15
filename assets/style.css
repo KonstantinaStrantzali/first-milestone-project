@@ -215,7 +215,12 @@ background-color:  #33472B;
   font-weight:500;
  
 }
-
+.card-title{
+  font-family:'Roboto', sans-serif;
+  font-size:23px;
+  font-weight:500;
+  color:#1F2324;
+}
 /*------------------------------------------------>Banner-Images-Containers */
 .hero-container{
   height: 80vh;
@@ -225,14 +230,7 @@ background-color:  #33472B;
   position: relative;
 }
 
- .banner-facial-massage{
-   background:url("images/facial-treatment02.png") fixed center center no-repeat;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-
- }
+ 
  .banner-bamboo-massage{
   background:url("images/massage-treatment-02.jpeg") fixed center center no-repeat;
   -webkit-background-size: cover;
@@ -351,15 +349,6 @@ background-color:  #33472B;
 .btn-contact{
   background-color:  #33472B !important;
   border-color: #33472B;
-}
-
-
-
-.card-title{
-  font-family:'Roboto', sans-serif;
-  font-size:23px;
-  font-weight:500;
-  color:#1F2324;
 }
 
 .benefits-heading{
